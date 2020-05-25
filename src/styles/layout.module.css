@@ -1,4 +1,8 @@
 .appContainer {
-  width: 70%;
-  margin: 0 auto;
+  margin: 0 2rem;
+}
+
+.appBody {
+  width: 80%;
+  margin: 2.4rem auto;
 }

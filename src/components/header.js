@@ -13,13 +13,19 @@ const Header = ({ pageName }) => {
       </TypeWriter>
       <ul className={styles.navLinks}>
         <li className={styles.link}>
-          <Link to="/">Home</Link>
+          <Link aria-label="Home" to="/">
+            Home
+          </Link>
         </li>
         <li className={styles.link}>
-          <Link to="/about">About</Link>
+          <Link aria-label="About" to="/about">
+            About
+          </Link>
         </li>
         <li className={styles.link}>
-          <Link to="/contact">Contact</Link>
+          <Link aria-label="Contact" to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
     </header>

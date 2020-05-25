@@ -8,7 +8,8 @@ import styles from "../styles/layout.module.css"
 const Layout = ({ pageName, children }) => (
   <div className={styles.appContainer}>
     <Header pageName={pageName} />
-    <main>{children}</main>
+    <main className={styles.appBody}>{children}</main>
+    {/*TODO: Update the Footer*/}
     <footer>
       © {new Date().getFullYear()}, Built with
       {` `}
