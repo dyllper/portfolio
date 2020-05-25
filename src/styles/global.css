@@ -38,6 +38,7 @@ li,
 button,
 label,
 input,
+span,
 a,
 p {
   font-size: var(--text);
