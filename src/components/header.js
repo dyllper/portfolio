@@ -1,15 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import TypeWriter from "react-typewriter"
+import TypeWriter from "../components/TypeWriter/TypeWriter"
 
 import styles from "../styles/header.module.css"
 
 const Header = ({ pageName }) => {
   return (
     <header className={styles.headerContainer}>
-      <span>&gt;</span>
-      <TypeWriter typing={1} initDelay={100}>
+      <TypeWriter typing={1} initDelay={200}>
         <span className={styles.typewriter}>{pageName}</span>
       </TypeWriter>
       <ul className={styles.navLinks}>

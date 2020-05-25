@@ -1,18 +1,17 @@
 .headerContainer {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2.4rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  height: 5rem;
 }
 
 .navLinks {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-left: auto;
 }
 
 .link {
-  padding-left: 1rem;
+  padding-right: 2rem;
 }
 
 .typewriter {
