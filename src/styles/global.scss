@@ -1,0 +1,50 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: $header1;
+}
+
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+
+h4 {
+  font-size: $header4;
+}
+
+li,
+button,
+label,
+input,
+span,
+a,
+p {
+  font-size: $text;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

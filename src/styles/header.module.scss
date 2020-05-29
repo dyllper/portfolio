@@ -1,8 +1,11 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
 .headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: $margin-large;
   height: 5rem;
 }
 
@@ -11,7 +14,11 @@
 }
 
 .link {
-  padding-right: 2rem;
+  padding-right: $margin-small;
+
+  a {
+    font-size: calc(1.2rem + 1vw);
+  }
 }
 
 .typewriter {

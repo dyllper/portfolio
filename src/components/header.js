@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import TypeWriter from "../components/TypeWriter/TypeWriter"
 
-import styles from "../styles/header.module.css"
+import styles from "../styles/header.module.scss"
 
 const Header = ({ pageName }) => {
   return (

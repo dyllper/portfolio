@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 
-import styles from "../styles/layout.module.css"
+import styles from "../styles/layout.module.scss"
 
 const Layout = ({ pageName, children }) => (
   <div className={styles.appContainer}>
