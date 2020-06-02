@@ -10,11 +10,9 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
+        path: `${__dirname}/src/images/`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

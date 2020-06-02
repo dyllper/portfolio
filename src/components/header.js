@@ -18,11 +18,6 @@ const Header = ({ pageName }) => {
           </Link>
         </li>
         <li className={styles.link}>
-          <Link aria-label="About" to="/about">
-            About
-          </Link>
-        </li>
-        <li className={styles.link}>
           <Link aria-label="Contact" to="/contact">
             Contact
           </Link>

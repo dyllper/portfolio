@@ -1,12 +1,19 @@
 /* Font Sizes */
-$header1: calc(2.6rem + 1vw);
-$header2: calc(3rem + 1vw);
-$header3: calc(2.4rem + 1vw);
-$header4: calc(2rem + 1vw);
-$text: calc(1.6rem + 1vw);
+$header1: calc(3em + 1vw);
+$header2: calc(2.25em + 1vw);
+$header3: calc(1.75em + 1vw);
+$header4: calc(1.125em + 1vw);
+$text: calc(1em + 1vw);
 
 /* Margin Spacing */
 $margin-extra-large: 4.8rem;
 $margin-large: 3.2rem;
 $margin-medium: 2.4rem;
 $margin-small: 1.6rem;
+
+/* Colors */
+$bg-color: #40514e;
+$bg-color-dark: #394745;
+$text-color: #f5f5f5;
+$link-color: #2f89fc;
+$button-color: #30e3ca;

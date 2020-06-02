@@ -1,0 +1,9 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
+.imageContainer {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  margin: 0 auto $margin-medium auto;
+}
