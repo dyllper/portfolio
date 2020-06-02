@@ -2,11 +2,11 @@ This is my personal Web Developer portfolio site. It was build using [GatsbyJS](
 
 ##  TODO
 
-- Create Site Design
+- ~~Create Site Design~~
 - Build Home Page
-- Build About Page
+- ~~Build About Page(was converted to be part of home page)~~
 - Build Contact Page
-- Build Projects Page
+- Build Projects Page(going to be included on home page)
 - Create Blog template page
 - Connect to Headless CMS to fetch Blog content
 - Optimize performance
