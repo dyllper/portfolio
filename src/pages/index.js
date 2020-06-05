@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "../styles/index.module.scss"
 
+import ProjectList from "../components/project-list"
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -38,6 +40,7 @@ const IndexPage = () => {
         possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
         ipsum doloribus ipsa laudantium.
       </p>
+      <ProjectList />
     </Layout>
   )
 }
