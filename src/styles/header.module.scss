@@ -18,10 +18,6 @@
 
 .link {
   padding-right: $margin-small;
-
-  a {
-    font-size: calc(1.2rem + 1vw);
-  }
 }
 
 .typewriter {
@@ -31,6 +27,7 @@
   white-space: nowrap;
   letter-spacing: 0.15em;
   animation: blink-caret 0.75s step-end infinite;
+  font-size: $header3;
 }
 
 /* The cursor effect */

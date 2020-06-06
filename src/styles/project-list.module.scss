@@ -1,0 +1,26 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: $margin-small 0;
+
+  &.dark {
+    background-color: $bg-color-dark;
+  }
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.projectImage {
+  background-color: black;
+  width: 40rem;
+  height: 22.5rem;
+}
+
+.projectInfo {
+  width: 40rem;
+}
