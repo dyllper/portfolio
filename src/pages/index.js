@@ -23,23 +23,25 @@ const IndexPage = () => {
   return (
     <Layout pageName="Home">
       <SEO title="Home" />
-      <Img
-        className={styles.imageContainer}
-        fluid={data.file.childImageSharp.fluid}
-        alt="Image of Dylan Perkins smiling with a guitar."
-      />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-        mollitia similique aliquid dignissimos architecto laborum? Non impedit
-        possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
-        ipsum doloribus ipsa laudantium.
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-        mollitia similique aliquid dignissimos architecto laborum? Non impedit
-        possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
-        ipsum doloribus ipsa laudantium.
-      </p>
+      <section className={styles.aboutSection}>
+        <Img
+          className={styles.imageContainer}
+          fluid={data.file.childImageSharp.fluid}
+          alt="Image of Dylan Perkins smiling with a guitar."
+        />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          mollitia similique aliquid dignissimos architecto laborum? Non impedit
+          possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
+          ipsum doloribus ipsa laudantium.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          mollitia similique aliquid dignissimos architecto laborum? Non impedit
+          possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
+          ipsum doloribus ipsa laudantium.
+        </p>
+      </section>
       <ProjectList />
     </Layout>
   )
