@@ -1,6 +1,5 @@
 ---
 title: "Placeholder"
-path: "/project/placeholder"
 url: "https://google.com"
 blurb: "Placeholder project for styling and layout purposes."
 technologies: "NextJS"

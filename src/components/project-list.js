@@ -9,9 +9,11 @@ export default function ProjectList() {
       allMarkdownRemark {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               title
-              path
               blurb
               url
             }
@@ -24,7 +26,8 @@ export default function ProjectList() {
     <section className={styles.projectsSection}>
       <h2 className={styles.projectsHeading}>Portfolio</h2>
       {data.allMarkdownRemark.edges.map((edge, index) => {
-        const { title, path, blurb, url } = edge.node.frontmatter
+        const { title, blurb, url } = edge.node.frontmatter
+        const { slug } = edge.node.fields
         const classList = `${styles.projectContainer} ${
           index % 2 !== 0 ? `${styles.dark} ${styles.reverse}` : ""
         }`
@@ -32,7 +35,7 @@ export default function ProjectList() {
           <div className={classList} key={index}>
             <div className={styles.projectImage}>Image will go here</div>
             <div className={styles.projectInfo}>
-              <Link to={`/${path}`} aria-label={title}>
+              <Link aria-label={title} to={`/${slug}`}>
                 <h3>{title}</h3>
               </Link>
               <p>{blurb}</p>

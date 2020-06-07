@@ -1,6 +1,5 @@
 ---
 title: "Color Palette Grabber"
-path: "/project/color-palette"
 url: "https://determined-jang-6e3673.netlify.app/"
 blurb: "A webapp that grabs generates a color palette based on the most vibrant colors in an image."
 technologies: "GatsbyJS, NodeJS"
