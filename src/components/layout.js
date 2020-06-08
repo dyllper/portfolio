@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { SocialIcon } from "react-social-icons"
 
 import Header from "./header"
 
@@ -9,11 +10,22 @@ const Layout = ({ pageName, children }) => (
   <div className={styles.appContainer}>
     <Header pageName={pageName} />
     <main className={styles.appBody}>{children}</main>
-    {/*TODO: Update the Footer*/}
-    <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <footer className={styles.footer}>
+      <div>© Dylan Perkins {new Date().getFullYear()}</div>
+      <div className={styles.socialIcons}>
+        <SocialIcon
+          url="https://twitter.com/Dyllper"
+          style={{ width: 25, height: 25 }}
+        />
+        <SocialIcon
+          url="https://github.com/dyllper"
+          style={{ width: 25, height: 25 }}
+        />
+        <SocialIcon
+          url="https://www.linkedin.com/in/perkinsdylan/"
+          style={{ width: 25, height: 25 }}
+        />
+      </div>
     </footer>
   </div>
 )

@@ -4,22 +4,29 @@ import Layout from "../components/layout"
 
 export default function ProjectDetail({ data }) {
   const project = data.markdownRemark
+  const {
+    title,
+    technologies,
+    githubClient,
+    githubServer,
+    url,
+  } = project.frontmatter
   return (
-    <Layout>
-      <h2>{project.frontmatter.title}</h2>
-      <p>Technologies used: {project.frontmatter.technologies}</p>
-      {project.frontmatter.githubClient && (
+    <Layout pageName={title}>
+      <h2>{title}</h2>
+      <p>Technologies used: {technologies}</p>
+      {githubClient && (
         <p>
-          <a href={project.frontmatter.githubClient}>Client Code</a>
+          <a href={githubClient}>Client Code</a>
         </p>
       )}
-      {project.frontmatter.githubServer && (
+      {githubServer && (
         <p>
-          <a href={project.frontmatter.githubServer}>Server Code</a>
+          <a href={githubServer}>Server Code</a>
         </p>
       )}
       <p>
-        Check it out in action <a href={project.frontmatter.url}>here</a>
+        Check it out in action <a href={url}>here</a>
       </p>
       <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
     </Layout>

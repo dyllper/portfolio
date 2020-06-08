@@ -1,2 +1,19 @@
 // Utilities
 @import "./Utilities/variables.scss";
+
+.footer {
+  background-color: $bg-color-dark;
+  margin-top: $margin-large;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcons {
+  a {
+    width: 25px;
+    height: 25px;
+    margin: 0.5rem 0.5rem;
+  }
+}
