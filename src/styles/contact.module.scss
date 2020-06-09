@@ -1,0 +1,48 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
+.contactContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexForm {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    label,
+    p {
+      padding: 0.8rem;
+      font-weight: 300;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    input,
+    textarea {
+      padding: 1.5rem;
+      border: none;
+    }
+
+    button {
+      margin-left: auto;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      background: $button-color;
+      color: $text-color;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      border-radius: 2px;
+    }
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
