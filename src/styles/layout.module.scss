@@ -1,7 +1,12 @@
 // Utilities
 @import "./Utilities/variables.scss";
 
+.appBody {
+  min-height: 85vh;
+}
+
 .footer {
+  min-height: 5vh;
   background-color: $bg-color-dark;
   margin-top: $margin-large;
   padding: 0 10%;
