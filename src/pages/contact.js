@@ -15,8 +15,8 @@ const LongPageNamePage = () => (
         officiis veniam nesciunt. Voluptas quis adipisci fugit porro laudantium
         tempore quas.
       </p>
-      <form>
-        <ul className={styles.flexForm}>
+      <form className={styles.flexForm}>
+        <ul>
           <li>
             <label htmlFor="email">EMAIL</label>
             <input type="email" name="email" id="email" />
@@ -27,7 +27,10 @@ const LongPageNamePage = () => (
           </li>
           <li>
             <label htmlFor="message">MESSAGE</label>
-            <textarea name="message" id="message" rows="10"></textarea>
+            <textarea name="message" id="message" rows="6" cols="30"></textarea>
+          </li>
+          <li>
+            <button type="submit">Submit</button>
           </li>
         </ul>
       </form>
