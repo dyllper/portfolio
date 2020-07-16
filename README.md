@@ -12,4 +12,5 @@ This is my personal Web Developer portfolio site. It was build using [GatsbyJS](
 - Create Blog template page
 - Connect to Headless CMS to fetch Blog content
 - Optimize performance
-- Make it look nice!
+- Optimize Stling for Mobile
+- Optimize Styling for Desktop
