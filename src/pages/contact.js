@@ -8,33 +8,35 @@ import styles from "../styles/contact.module.scss"
 const LongPageNamePage = () => (
   <Layout pageName="Contact Me">
     <SEO title="Test" />
-    <div className={styles.contactContainer}>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quis
-        repellat repudiandae autem assumenda voluptate, hic iusto sed temporibus
-        officiis veniam nesciunt. Voluptas quis adipisci fugit porro laudantium
-        tempore quas.
-      </p>
-      <form className={styles.flexForm}>
-        <ul>
-          <li>
-            <label htmlFor="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
-          </li>
-          <li>
-            <label htmlFor="name">NAME</label>
-            <input type="text" name="name" id="name" />
-          </li>
-          <li>
-            <label htmlFor="message">MESSAGE</label>
-            <textarea name="message" id="message" rows="6" cols="30"></textarea>
-          </li>
-          <li>
-            <button type="submit">Submit</button>
-          </li>
-        </ul>
-      </form>
-    </div>
+    <section className={styles.contactSection}>
+      <div className={styles.contactContainer}>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quis
+          repellat repudiandae autem assumenda voluptate, hic iusto sed
+          temporibus officiis veniam nesciunt. Voluptas quis adipisci fugit
+          porro laudantium tempore quas.
+        </p>
+        <form className={styles.flexForm} data-netlify="true">
+          <ul>
+            <li>
+              <label htmlFor="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </li>
+            <li>
+              <label htmlFor="name">NAME</label>
+              <input type="text" name="name" id="name" />
+            </li>
+            <li>
+              <label htmlFor="message">MESSAGE</label>
+              <textarea name="message" id="message"></textarea>
+            </li>
+            <li>
+              <button type="submit">Submit</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
   </Layout>
 )
 

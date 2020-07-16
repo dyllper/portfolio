@@ -6,17 +6,17 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: $margin-large;
-  height: 5rem;
+  height: 5vh;
   background-color: $bg-color-dark;
   width: 100%;
-  padding-top: 1rem;
+  padding: 0 $margin-small;
 }
 
 .navLinks {
   display: flex;
 }
 
-.link {
+.link:first-child {
   padding-right: $margin-small;
 }
 

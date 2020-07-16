@@ -1,25 +1,38 @@
 // Utilities
 @import "./Utilities/variables.scss";
 
+.contactSection {
+  position: relative;
+  height: 85vh;
+  min-height: 85vh;
+}
+
 .contactContainer {
-  width: 80%;
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   background-color: $bg-color-dark;
+
+  p {
+    margin: $margin-medium $margin-small;
+  }
 }
 
 .flexForm {
   list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
+  width: 70%;
+  margin: $margin-medium auto;
 
   li {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0;
 
     label,
     p {
-      padding: 0.8rem;
+      margin: 0;
       font-weight: 300;
       letter-spacing: 0.09em;
       text-transform: uppercase;
@@ -27,8 +40,18 @@
 
     input,
     textarea {
-      padding: 1.5rem;
+      margin: $margin-small 0;
       border: none;
+      width: 100%;
+    }
+
+    input {
+      padding: 1.5rem;
+      margin-left: auto;
+    }
+
+    textarea {
+      height: 20rem;
     }
 
     button {
@@ -38,13 +61,10 @@
       border: none;
       background: $button-color;
       color: $text-color;
+      font-size: $header3;
       text-transform: uppercase;
       letter-spacing: 0.09em;
       border-radius: 2px;
     }
-  }
-
-  li:not(:last-child) {
-    margin-bottom: 2rem;
   }
 }

@@ -1,12 +1,12 @@
 ---
-title: "Placeholder"
-url: "https://google.com"
-blurb: "Placeholder project for styling and layout purposes."
-technologies: "NextJS"
-githubClient: "https://github.com/dyllper"
+title: "Star Wars Translator"
+url: "https://nervous-hoover-0aa86a.netlify.app/"
+blurb: "Type or speak a message and translate it into your favorite Star Wars language!"
+technologies: "NextJS, Watson Speech-to-Text API, Funtranslations API"
+githubClient: "https://github.com/dyllper/star-wars-translator"
 githubServer: ""
 ---
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores mollitia similique aliquid dignissimos architecto laborum? Non impedit possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam, ipsum doloribus ipsa laudantium.
+This web app translates your message into one of six Star Wars languages as provided by the [FunTranslation Star Wars API](https://api.funtranslations.com/). While you can type your message, if you have a microphone on hand you can also speak your message and have it transcribed to text thanks to the  [IBM Watson Speech to Text API](https://github.com/watson-developer-cloud/speech-javascript-sdk)!
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores mollitia similique aliquid dignissimos architecto laborum? Non impedit possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam, ipsum doloribus ipsa laudantium.
+Note that there may be errors in translation due to the limits placed on the free version of the Funtranslations API.

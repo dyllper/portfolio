@@ -23,7 +23,7 @@ const IndexPage = () => {
   return (
     <Layout pageName="Home">
       <SEO title="Home" />
-      <section className={styles.aboutSection}>
+      <section aria-label="About Section">
         <Img
           className={styles.imageContainer}
           fluid={data.file.childImageSharp.fluid}

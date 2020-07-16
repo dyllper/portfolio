@@ -2,17 +2,21 @@
 @import "./Utilities/variables.scss";
 
 .appBody {
+  width: 80%;
+  max-width: 128rem;
   min-height: 85vh;
+  margin: 0 auto;
 }
 
 .footer {
-  min-height: 5vh;
-  background-color: $bg-color-dark;
-  margin-top: $margin-large;
-  padding: 0 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 5vh;
+  min-height: 5vh;
+  padding: 0 $margin-small;
+  margin-top: $margin-large;
+  background-color: $bg-color-dark;
 }
 
 .socialIcons {

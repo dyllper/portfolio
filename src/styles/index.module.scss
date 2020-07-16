@@ -1,14 +1,9 @@
 // Utilities
 @import "./Utilities/variables.scss";
 
-.aboutSection {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .imageContainer {
   width: 256px;
   height: 256px;
   border-radius: 50%;
-  margin: 0 auto $margin-medium auto;
+  margin: $margin-large auto;
 }

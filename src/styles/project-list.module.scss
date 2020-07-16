@@ -1,15 +1,18 @@
 // Utilities
 @import "./Utilities/variables.scss";
 
+.projectsSection {
+  margin-top: $margin-large;
+}
+
 .projectsHeading {
   text-align: center;
-  margin-top: $margin-large;
+  margin-bottom: $margin-small;
 }
 
 .projectContainer {
   display: flex;
   justify-content: space-between;
-  padding: $margin-small 10%;
 
   &.dark {
     background-color: $bg-color-dark;
@@ -28,4 +31,5 @@
 
 .projectInfo {
   width: 40rem;
+  margin: $margin-small 0;
 }

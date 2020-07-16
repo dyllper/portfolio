@@ -29,7 +29,7 @@ export default function ProjectList() {
         const { title, blurb, url } = edge.node.frontmatter
         const { slug } = edge.node.fields
         const classList = `${styles.projectContainer} ${
-          index % 2 !== 0 ? `${styles.dark} ${styles.reverse}` : ""
+          index % 2 !== 0 ? `${styles.reverse}` : `${styles.dark}`
         }`
         return (
           <div className={classList} key={index}>
