@@ -33,3 +33,9 @@
   width: 40rem;
   margin: $margin-small 0;
 }
+
+.githubLinks {
+  a:not(:last-child) {
+    margin-right: $margin-small;
+  }
+}
