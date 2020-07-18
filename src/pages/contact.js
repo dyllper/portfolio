@@ -32,13 +32,20 @@ const LongPageNamePage = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...formState }),
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        alert("Your message has been submitted!")
+        setFormState({
+          email: "",
+          name: "",
+          message: "",
+        })
+      })
       .catch(error => alert(error))
   }
 
   return (
     <Layout pageName="Contact Me">
-      <SEO title="Test" />
+      <SEO title="Contact" />
       <section className={styles.contactSection}>
         <div className={styles.contactContainer}>
           <p>
@@ -48,6 +55,8 @@ const LongPageNamePage = () => {
             porro laudantium tempore quas.
           </p>
           <form
+            name="contact"
+            method="post"
             className={styles.flexForm}
             onSubmit={handleSubmit}
             data-netlify="true"
