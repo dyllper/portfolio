@@ -12,8 +12,14 @@ $margin-medium: 2.7rem;
 $margin-small: 1.8rem;
 
 /* Colors */
-$bg-color: #40514e;
-$bg-color-dark: #394745;
-$text-color: #f5f5f5;
+$bg-color: #222831;
+$bg-color-dark: #393e46;
+$text-color: #fff;
 $link-color: #2f89fc;
 $button-color: #30e3ca;
+
+/* Colors for light mode if toggle is ever implemented
+$bg-color: rgb(233, 233, 233);
+$bg-color-alt: #fff;
+$text-color: #222831;
+*/
