@@ -2,17 +2,14 @@
 @import "./Utilities/variables.scss";
 
 .contactSection {
-  position: relative;
-  height: 85vh;
   min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContainer {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  background-color: $bg-color-dark;
+  background-color: $bg-color-alt;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 
   p {

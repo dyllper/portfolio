@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
+import ProjectCard from "./project-card"
+
 import styles from "../styles/project-list.module.scss"
 
 export default function ProjectList() {
@@ -14,6 +16,7 @@ export default function ProjectList() {
               url
               githubClient
               githubServer
+              image
             }
             internal {
               content
@@ -27,26 +30,7 @@ export default function ProjectList() {
     <section className={styles.projectsSection}>
       <h2 className={styles.projectsHeading}>Portfolio</h2>
       {data.allMarkdownRemark.edges.map((edge, index) => {
-        const { title, url, githubClient, githubServer } = edge.node.frontmatter
-        const { content } = edge.node.internal
-        const classList = `${styles.projectContainer} ${
-          index % 2 !== 0 ? `${styles.reverse}` : `${styles.dark}`
-        }`
-        return (
-          <div className={classList} key={index}>
-            <div className={styles.projectImage}>Image will go here</div>
-            <div className={styles.projectInfo}>
-              <a href={url}>
-                <h2>{title}</h2>
-              </a>
-              <p>{content}</p>
-              <div className={styles.githubLinks}>
-                {githubClient ? <a href={githubClient}>Client Code</a> : null}
-                {githubServer ? <a href={githubServer}>Server Code</a> : null}
-              </div>
-            </div>
-          </div>
-        )
+        return <ProjectCard projectEdge={edge} key={index} />
       })}
     </section>
   )

@@ -1,0 +1,33 @@
+// Utilities
+@import "./Utilities/variables.scss";
+
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: $margin-small auto;
+  background-color: $bg-color-alt;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.projectImage {
+  background-color: black;
+  width: 40rem;
+  height: 22.5rem;
+
+  img {
+    width: 40rem;
+    height: 22.5rem;
+  }
+}
+
+.projectInfo {
+  width: 40rem;
+  margin: $margin-small auto;
+}
+
+.githubLinks {
+  a:not(:last-child) {
+    margin-right: $margin-small;
+  }
+}

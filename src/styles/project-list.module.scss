@@ -3,39 +3,11 @@
 
 .projectsSection {
   margin-top: $margin-large;
+  display: flex;
+  flex-direction: column;
 }
 
 .projectsHeading {
   text-align: center;
   margin-bottom: $margin-small;
-}
-
-.projectContainer {
-  display: flex;
-  justify-content: space-between;
-
-  &.dark {
-    background-color: $bg-color-dark;
-  }
-
-  &.reverse {
-    flex-direction: row-reverse;
-  }
-}
-
-.projectImage {
-  background-color: black;
-  width: 40rem;
-  height: 22.5rem;
-}
-
-.projectInfo {
-  width: 40rem;
-  margin: $margin-small 0;
-}
-
-.githubLinks {
-  a:not(:last-child) {
-    margin-right: $margin-small;
-  }
 }

@@ -30,16 +30,11 @@ const IndexPage = () => {
           alt="Image of Dylan Perkins smiling with a guitar."
         />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          mollitia similique aliquid dignissimos architecto laborum? Non impedit
-          possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
-          ipsum doloribus ipsa laudantium.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          mollitia similique aliquid dignissimos architecto laborum? Non impedit
-          possimus omnis magni sed tempore, voluptatibus dolorem dolor aperiam,
-          ipsum doloribus ipsa laudantium.
+          Hello there! I'm Dylan, and I have been a Full Stack Software
+          Developer for 7 years. Though in more recent times I am finding myself
+          learning more towards enjoying working with Front End applications and
+          projects and that is what a majority of my personal projects are made
+          up of.
         </p>
       </section>
       <ProjectList />
