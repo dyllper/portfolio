@@ -49,8 +49,9 @@ const LongPageNamePage = () => {
       <section className={styles.contactSection}>
         <div className={styles.contactContainer}>
           <p>
-            If you would like to get in contact with me, feel free to reach out
-            via <a href="https://twitter.com/dyllper">Twitter</a>,{" "}
+            If you would like to get in contact with me to discuss employment
+            opportunities, web development in general, or keyboards, feel free
+            to reach out via <a href="https://twitter.com/dyllper">Twitter</a>,{" "}
             <a href="https://www.linkedin.com/in/perkinsdylan/">LinkedIn</a>, or
             by filling out the contact form below!
           </p>

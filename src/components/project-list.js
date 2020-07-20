@@ -28,7 +28,7 @@ export default function ProjectList() {
   `)
   return (
     <section className={styles.projectsSection}>
-      <h2 className={styles.projectsHeading}>Portfolio</h2>
+      <h2 className={styles.projectsHeading}>Projects</h2>
       {data.allMarkdownRemark.edges.map((edge, index) => {
         return <ProjectCard projectEdge={edge} key={index} />
       })}

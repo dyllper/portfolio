@@ -31,3 +31,34 @@
     margin-right: $margin-small;
   }
 }
+
+@media (max-width: 1100px) {
+  .projectCard {
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .projectInfo {
+    margin: $margin-small 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .projectCard {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectInfo {
+    width: 100%;
+    margin: $margin-small 1rem;
+  }
+
+  .projectImage {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
