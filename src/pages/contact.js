@@ -49,10 +49,10 @@ const LongPageNamePage = () => {
       <section className={styles.contactSection}>
         <div className={styles.contactContainer}>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-            quis repellat repudiandae autem assumenda voluptate, hic iusto sed
-            temporibus officiis veniam nesciunt. Voluptas quis adipisci fugit
-            porro laudantium tempore quas.
+            If you would like to get in contact with me, feel free to reach out
+            via <a href="https://twitter.com/dyllper">Twitter</a>,{" "}
+            <a href="https://www.linkedin.com/in/perkinsdylan/">LinkedIn</a>, or
+            by filling out the contact form below!
           </p>
           <form
             name="contact"

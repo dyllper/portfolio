@@ -22,7 +22,7 @@ export default function ProjectCard({ projectEdge }) {
       </div>
       <div className={styles.projectInfo}>
         <a href={url}>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
         </a>
         <p>{content}</p>
         <div className={styles.githubLinks}>

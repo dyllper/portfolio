@@ -30,11 +30,13 @@ const IndexPage = () => {
           alt="Image of Dylan Perkins smiling with a guitar."
         />
         <p>
-          Hello there! I'm Dylan, and I have been a Full Stack Software
-          Developer for 7 years. Though in more recent times I am finding myself
-          learning more towards enjoying working with Front End applications and
-          projects and that is what a majority of my personal projects are made
-          up of.
+          Hello! My name is Dylan Perkins, and I am a Full Stack web developer!
+          I have 7 years of experience working in the enterprise space across
+          various tech stacks and have 5 years experience working remotely. I
+          love the intersection of logical and creative thinking that is
+          involved in software development, as well as having the opportunity to
+          create things that can help make people's lives easier or better in
+          some way.
         </p>
       </section>
       <ProjectList />
