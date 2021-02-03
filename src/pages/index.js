@@ -27,23 +27,26 @@ const IndexPage = () => {
         <Img
           className={styles.imageContainer}
           fluid={data.file.childImageSharp.fluid}
-          alt="Image of Dylan Perkins smiling with a guitar."
+          alt="Dylan Perkins smiling with a guitar."
         />
         <p>
-          I have 7 years experiece as a software developer, working primarily in
-          the enterprise space. I also have 5 years experience working remotely
-          with distributed teams. While I am a proficient full-stack developer,
-          I find that I am leaning more towards front end web development as
-          that is where I most enjoy working and dedicate the majority of my
-          time to learning more about.
+          Hello there! My name is Dylan Perkins, and I am a Full-Stack web
+          developer with 7.5 years of experience. Though I've worked primarily
+          as a full-stack developer and know my way around an API, I find that
+          my real passion is frontend development. I love getting to visually
+          see the results of my work appear on the screen, and to be able to
+          craft wonderful experiences for users.
         </p>
         <p>
-          I love the intersection of logical and creative thinking that is
-          involved in software development. I'm most interested in creating
-          applications and services that can bring real value to the lives of
-          customers. I am currently looking for a remote individual contributor
-          role that is more focused on front end development in a collaborative
-          team environment.
+          I've spent the better part of the past year as the lead frontend
+          developer on multiple new customer funded initiatives, and have plenty
+          of experience working with UI/UX design teams as well as interacting
+          with customers to craft the best experience possible. I work primarily
+          with the React JS framework, and have used the NextJS framework on
+          several personal projects. (Two of which you can check out below!) I
+          also have 6 years experience working remotely, which has definitely
+          proven to be an unexpected boon in our current world of social
+          distancing.
         </p>
       </section>
       <ProjectList />

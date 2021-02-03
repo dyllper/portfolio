@@ -13,7 +13,8 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 
   p {
-    margin: $margin-medium $margin-small;
+    width: 70%;
+    margin: $margin-medium auto $margin-large auto;
   }
 }
 
